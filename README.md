@@ -35,11 +35,9 @@ src/
 │   ├── layout/
 │   └── ui/
 │
-├── features/
+├── pages/
 │   └── knowledge-base/
-│       ├── components/
-│       ├── data/
-│       └── hooks/
+│  
 │
 ├── pages/
 ├── styles/
