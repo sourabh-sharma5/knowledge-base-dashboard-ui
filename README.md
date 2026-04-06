@@ -91,15 +91,6 @@ Example workflow:
 ```bash
 git checkout -b feature/knowledge-base-ui
 ```
-
-## Screenshots
-
-### Screen 1
-![Screen 1](./screenshots/screen-1.png)
-
-### Screen 2
-![Screen 2](./screenshots/screen-2.png)
-
 ## Notes
 
 - This project focuses on UI implementation based on the provided screenshots.
