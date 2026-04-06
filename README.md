@@ -1,16 +1,111 @@
-# React + Vite
+# Knowledge Base Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend assignment project that recreates the Knowledge Base dashboard screens from the provided design reference. The project includes a dashboard layout, knowledge base listing cards, search toolbar, pagination, and a right-side create knowledge base drawer.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was built as part of a frontend developer assignment. The goal was to match the provided dashboard UI as closely as possible while maintaining a clean component-based structure and reusable code.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dashboard-style layout
+- Left sidebar navigation
+- Top workspace header
+- Knowledge base card grid
+- Search input
+- Create New button
+- Right-side drawer for creating a knowledge base
+- Pagination section
+- Reusable UI components
+- Feature-based folder structure
+
+## Folder Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── layout/
+│   └── ui/
+│
+├── features/
+│   └── knowledge-base/
+│       ├── components/
+│       ├── data/
+│       └── hooks/
+│
+├── pages/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+## Setup Instructions
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/knowledge-base-dashboard-ui.git
+```
+
+2. Move into the project folder
+
+```bash
+cd knowledge-base-dashboard-ui
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start development server
+
+```bash
+npm run dev
+```
+
+5. Open the local URL shown in the terminal, usually:
+
+```bash
+http://localhost:5173
+```
+
+## Git Workflow
+
+This project uses:
+
+- `main` branch for stable code
+- `feature/knowledge-base-ui` branch for feature development
+
+Example workflow:
+
+```bash
+git checkout -b feature/knowledge-base-ui
+```
+
+## Screenshots
+
+### Screen 1
+![Screen 1](./screenshots/screen-1.png)
+
+### Screen 2
+![Screen 2](./screenshots/screen-2.png)
+
+## Notes
+
+- This project focuses on UI implementation based on the provided screenshots.
+- Dummy data is used for the knowledge base cards.
+- Icons and interactions can be further improved for production use.
+
+## Author
+
+Sourabh Sharma
